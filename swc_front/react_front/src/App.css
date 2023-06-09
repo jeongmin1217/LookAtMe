@@ -1,0 +1,249 @@
+.App {
+  text-align: center;
+  background-color: #F5F5F5;
+  min-height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+
+}
+
+.App-logo {
+  height: 30vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #F5F5F5;
+  min-height: 91.5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#webcamId {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%); /* 웹캠을 수평 및 수직으로 중앙에 위치 */
+  width: 700px;
+  height: 350px;
+  border-radius: 100px;
+}
+
+canvas {
+  position: absolute;
+  top: 50%;
+  left: 45%;
+  transform: translate(-50%, -50%); /* 캔버스를 수평 및 수직으로 중앙에 위치 */
+  width: 350px;
+  height: 300px;
+  margin-left: 80px;
+}
+
+.rectangle3-main {
+  transform-origin: top left;
+  position: absolute;
+  left: 137px;
+  top: 27px;
+  width: 500px;
+  height: 60px;
+  border-radius: 12px;
+  background-color: #ddddf5;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.icon-main {
+  position: absolute;
+  left: 150px;
+  top: 40px;
+  width: 30px;
+  height: 30px;
+}
+
+.icon-image {
+  width: 35px;
+  height: 35px;
+  object-fit: cover;
+}
+
+.lookAtMe-main {
+  color: #8871e6;
+  font-size: 26px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 167px;
+  top: 33px;
+  width: 209px;
+  height: 36.7105px;
+  flex-direction: column;
+}
+
+.unnamed-main {
+  color: black;
+  font-size: 9px;
+  font-weight: 800;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 50px;
+  top: 66px;
+  width: 423px;
+  height: 26.0526px;
+  flex-direction: column;
+}
+.calendarIcon {
+  position: absolute;
+  left: 490px;
+  top: 45px;
+  width: 209px;
+  height: 36.7105px;
+  flex-direction: column;
+}
+.rectangle32 {
+  transform-origin: top left;
+  position: absolute;
+  left: 140px;
+  top: 465px;
+  width: 500px;
+  height: 60px;
+  border-radius: 12px;
+  background-color: #ddddf5;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+
+.button-control {
+  position: absolute;
+  left: 187.5px;
+  top: 455px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; /* 버튼들 사이의 간격을 균등하게 설정 */
+  width: 400px; /* 버튼들의 너비를 설정 */
+  text-align: center;
+  font-size: 17px;
+  font-weight: 800;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  color:#877bc4;
+}
+
+.start-button {
+  margin-top: 20px;
+  width: 90px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  border: none;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+  background-color: #877bc4;
+}
+.end-button {
+  margin-top: 20px;
+  width: 90px;
+  height: 40px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  border: none;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  outline: none;
+  background-color: #877bc4;
+}
+
+
+.score {
+  background-color: #6f54f7;
+  color: #ddddf5;
+  margin-top: 23.5px;
+  width: 100px;
+  height: 35px;
+  border-radius: 5px;
+}
+
+p {
+  margin-top: 4px;
+  margin-bottom: 0px;
+}
+
+.alert-modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.alert-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.alert-message {
+  margin-bottom: 20px;
+}
+
+.alert-close-button {
+  background-color: #ccc;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}

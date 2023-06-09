@@ -1,0 +1,115 @@
+.container-chart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+}
+
+canvas.bar {
+    border: 1px solid rgba(128, 128, 128, 0.267);
+    max-width: 500px;
+    max-height: 600px;
+    margin-left: 40px;
+}
+
+.rectangle3-chart {
+    transform-origin: top left;
+    position: absolute;
+    left: 138px;
+    top: 15px;
+    width: 510px;
+    height: 60px;
+    border-radius: 12px;
+    background-color: #ddddf5;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+  
+.icon-chart {
+    position: absolute;
+    left: 155px;
+    top: 28px;
+    width: 30px;
+    height: 30px;
+}
+  
+.icon-image-chart {
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+}
+  
+.lookAtMe-chart {
+    color: #8871e6;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    position: absolute;
+    left: 200px;
+    top: 23px;
+    width: 209px;
+    height: 36.7105px;
+    flex-direction: column;
+}
+  
+.unnamed-chart {
+    color: black;
+    font-size: 9px;
+    font-weight: 800;
+    font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+      'Liberation Sans', sans-serif;
+    position: absolute;
+    left: 205px;
+    top: 56px;
+    width: 423px;
+    height: 26.0526px;
+    flex-direction: column;
+}
+
+
+.bottom-bar-chart {
+    transform-origin: top left;
+    position: absolute;
+    left: 143px;
+    top: 470px;
+    bottom: 5px;
+    width: 500px;
+    height: 45px;
+    border-radius: 12px;
+    background-color: #ddddf5;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    text-align: center;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.go-to-webcam-chart {
+    width: 160px;
+    height: 35px;
+    top: 5px;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 25px;
+    border: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+     7px 7px 20px 0px rgba(0,0,0,.1),
+     4px 4px 5px 0px rgba(0,0,0,.1);
+    outline: none;
+    background-color: #877bc4;
+}
+
+.calendarIcon-chart {
+    position: absolute;
+    left: 605px;
+    top: 32px;
+    height: 36.7105px;
+    flex-direction: column;  
+}
