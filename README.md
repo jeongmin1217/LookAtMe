@@ -2,7 +2,7 @@
 E-learning concentration record and helper based on gaze tracking
 
 ## Project Architecture
-<img src = "https://github.com/jeongmin1217/LookAtMe/assets/79658037/fc9f7c31-3610-4442-b756-0f912c1312a0" width="80%" height="40%">
+<img src = "https://github.com/jeongmin1217/LookAtMe/assets/79658037/fc9f7c31-3610-4442-b756-0f912c1312a0" width="80%" height="30%">
 
 ## Application
 <img src = "https://github.com/jeongmin1217/LookAtMe/assets/79658037/0b84dc96-8ac5-458a-9168-f77330285bcc" width="30%" height="40%">
