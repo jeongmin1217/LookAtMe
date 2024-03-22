@@ -18,10 +18,8 @@ LookAtMe is a personal project.
 [![Video Label](http://img.youtube.com/vi/77s0UEhojYg/0.jpg)](https://youtu.be/77s0UEhojYg)
 
 ## Main Functions
-1. Score data in calendar
-2. Score changes in realtime
-3. Stats of score which can give user feedback
+- Identifying concentration levels during online lectures through gaze tracking
+- The score changes in real-time, and the final score is automatically recorded in the calendar
+- Real-time feedback is provided in cases of lack of concentration
 
-- Gaze tracking을 통해 비대면 강의 시 집중도 파악
-- 실시간으로 점수가 변하며, 최종 점수는 다이어리에 자동으로 기록
-- 집중하지 못 하는 경우 실시간 피드백 진행
+**On the client side, face captured images are sent to the server using tensorflow.js, and gaze tracking is performed on those frames using the dlib library.**
