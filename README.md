@@ -1,5 +1,6 @@
 # LookAtMe
-E-learning concentration record and helper based on gaze tracking (Personal project)
+A desktop application that records concentration during e-learning based on gaze tracking and helps to maintain focus. <br>
+LookAtMe is a personal project.
 
 ## Project Architecture
 <img src = "https://github.com/jeongmin1217/LookAtMe/assets/79658037/fc9f7c31-3610-4442-b756-0f912c1312a0" width="80%" height="30%">
@@ -14,9 +15,8 @@ E-learning concentration record and helper based on gaze tracking (Personal proj
 <img src = "https://github.com/jeongmin1217/LookAtMe/assets/79658037/ac40d15f-c36a-444d-adf4-883bc56beca9" width="25%" height="40%"> <br>
 
 ## Demo
-<div align = "center">
-  [![Video Label](http://img.youtube.com/vi/77s0UEhojYg/0.jpg)](https://youtu.be/77s0UEhojYg)
-</div>
+[![Video Label](http://img.youtube.com/vi/77s0UEhojYg/0.jpg)](https://youtu.be/77s0UEhojYg)
+
 ## Main Functions
 1. Score data in calendar
 2. Score changes in realtime
@@ -25,8 +25,3 @@ E-learning concentration record and helper based on gaze tracking (Personal proj
 - Gaze tracking을 통해 비대면 강의 시 집중도 파악
 - 실시간으로 점수가 변하며, 최종 점수는 다이어리에 자동으로 기록
 - 집중하지 못 하는 경우 실시간 피드백 진행
-
-## More To Do
-1. Consider the case when user do many times of recording in one day
-2. Provide the stats of score when you click the score of specific date on calendar
-3. Consider more accurate & diverse factors about calculating the concentration score
