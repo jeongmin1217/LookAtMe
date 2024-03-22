@@ -12,7 +12,9 @@ E-learning concentration record and helper based on gaze tracking (Personal Proj
 <img src = "https://github.com/jeongmin1217/LookAtMe/assets/79658037/b9438f5a-d135-43f1-8779-c7d198a50a87" width="20%" height="40%">
 <img src = "https://github.com/jeongmin1217/LookAtMe/assets/79658037/aa79cbdc-a511-4dc0-a8b9-c3a09e461f33" width="25%" height="40%">
 <img src = "https://github.com/jeongmin1217/LookAtMe/assets/79658037/ac40d15f-c36a-444d-adf4-883bc56beca9" width="25%" height="40%"> <br>
+
 ### Youtube Demo Link : <a href="https://youtu.be/77s0UEhojYg">소프트웨어융합캡스톤디자인 - LookAtMe</a> <br>
+
 ## Main Functions
 1. Score data in calendar
 2. Score changes in realtime
