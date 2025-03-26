@@ -2,8 +2,8 @@
 A desktop application that records concentration during e-learning based on gaze tracking and helps to maintain focus. <br>
 LookAtMe is a personal project.
 
-## Publication:
-- [한국정보과학회 2024 한국소프트웨어종합학술대회 논문집 게재 (KSC 2024)](https://uxc.khu.ac.kr/file/ksc2024/KSC2024_%EC%84%9C%EC%A0%95%EB%AF%BC.pdf)
+## Publication
+- <a href="https://uxc.khu.ac.kr/file/ksc2024/KSC2024_%EC%84%9C%EC%A0%95%EB%AF%BC.pdf" target="_blank">한국정보과학회 2024 한국소프트웨어종합학술대회 논문집 게재 (KSC 2024)</a>
 
 ## Project Architecture
 <img src = "https://github.com/jeongmin1217/LookAtMe/assets/79658037/fc9f7c31-3610-4442-b756-0f912c1312a0" width="80%" height="30%">
